@@ -78,14 +78,12 @@ export const questionareData: QuestionnaireData<string | number> = [
       { id: 'opt1', label: 7 },
       { id: 'opt2', label: 5 },
       { id: 'opt3', label: 22 },
-    ],
-    required: true
+    ]
   },
   {
     id: 'q2',
     type: 'text',
-    question: 'What is your name?',
-    required: true
+    question: 'What is your name?'
   },
   {
     id: 'q3',
@@ -95,8 +93,7 @@ export const questionareData: QuestionnaireData<string | number> = [
       { id: 'opt1', label: 'Red' },
       { id: 'opt2', label: 'Blue' },
       { id: 'opt3', label: 'Green' },
-    ],
-    required: true
+    ]
   }
 ];
 ```
